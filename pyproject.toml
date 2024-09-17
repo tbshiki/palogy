@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palogy"
+version = "0.0.1"
+description = "A logging utility library for Python"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "tbshiki", email = "info@tbshiki.com"}
+]
+requires-python = ">=3.9"
+keywords = ["log", "logger", "logging"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/tbshiki/palogy"
